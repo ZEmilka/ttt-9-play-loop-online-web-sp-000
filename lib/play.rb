@@ -39,5 +39,6 @@ def play(board)
   counter=1
   until counter==9
     counter+=1
+    puts"#{board[index]}"
   end
 end
