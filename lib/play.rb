@@ -39,5 +39,4 @@ def play(board)
   counter=1
   turn(board)
   turn(board)
-  end
 end
