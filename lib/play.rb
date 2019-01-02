@@ -37,6 +37,10 @@ end
 
 def play(board)
   counter=1
-  turn(board)
+  loop do
+    counter<9
+    puts turn(board)
+    counter+=1
+  end
   turn(board)
 end
